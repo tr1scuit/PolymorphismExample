@@ -1,0 +1,23 @@
+
+public class Food {
+
+// The Food Superclass
+	
+	public Food(){
+		
+	}
+	
+	public void eat(){
+		System.out.println("This food is delicious!");
+	}
+	
+	// If not overridden by a child class (or if it
+	// is invoked through a Food object), this method
+	// will print out a generic line about eating food.
+	
+	public String getName(){
+		return "Generic Food";
+	}
+	// To be used in Driver_Food_Arrays
+	
+}
