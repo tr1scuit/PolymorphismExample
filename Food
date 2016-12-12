@@ -15,7 +15,7 @@ public class Food {
 	// is invoked through a Food object), this method
 	// will print out a generic line about eating food.
 	
-	public String getName(){
+	public String getFoodType(){
 		return "Generic Food";
 	}
 	// To be used in Driver_Food_Arrays
