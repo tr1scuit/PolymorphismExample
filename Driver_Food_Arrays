@@ -1,0 +1,58 @@
+
+public class Driver_Food_Arrays {
+
+	public static void main(String[] args) {
+		
+		// Demonstrating Polymorphic arrays
+		// Using various types of Food.
+		
+		Food[] restaurant = new Food[5];
+		// Just like making any other array, a Food[] array
+		// stores a set of objects of type Food. But remember,
+		// by applying the concept of Polymorphism, we can
+		// assign more specific objects to this array. 
+		
+		Burger bbq = new Burger("BBQ Cheeseburger");
+		Burger standard = new Burger("Burger");
+		Pizza plain = new Pizza("Plain Slice");
+		Pizza pepperoni = new Pizza("Pepperoni Slice");
+		Food food = new Food();
+		
+		restaurant[0] = bbq;
+		restaurant[1] = standard;
+		restaurant[2] = plain;
+		restaurant[3] = pepperoni;
+		restaurant[4] = food;
+		
+		// Because all five of these objects are ultimately based
+		// on the Food class, they are able to be assigned to this
+		// array, even though they do not all have the type Burger/Pizza/Food.
+		
+		// Polymorphism is really good in this aspect, because you can 
+		// use a for loop to make polymorphic references to multiple objects
+		// in an efficient way.
+		
+		for (int i = 0; i < restaurant.length; i++){
+			restaurant[i].eat();
+		}
+			// The .eat() method is defined differently between
+			// the three different classes. It's very tedious
+			// to write a lot statements like this:
+				
+			// bbq.eat();
+			// pepperoni.eat();
+			// plain.eat();
+				
+			// ... and so on. Using a for loop makes 
+			// things easier and more manageable.
+		
+		System.out.println();
+		
+		for (int i = 0; i < restaurant.length; i++){
+			System.out.println(restaurant[i].getName() + "");
+		}
+
+		// Prints out the food choices given by this restaurant.
+		
+	}
+}
