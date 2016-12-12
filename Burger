@@ -1,0 +1,28 @@
+
+public class Burger extends Food {
+
+// The child class of Food
+	
+	private String name;
+	
+	public Burger(String name) {
+		this.name = name;
+		// This constructor is for a specific burger that
+		// has a special name (For Driver_Food_Arrays)
+	}
+	
+	public Burger(){
+		// This constructor is for a generic burger
+		// that doesn't have a name (For Driver_Food)
+	}
+	
+	public void eat(){
+		System.out.println("This BURGER is delicious!");
+	}
+	
+	public String getName(){
+		return name;
+	}
+	// To be used in Driver_Food_Arrays
+
+}
