@@ -49,7 +49,7 @@ public class Driver_Food_Arrays {
 		System.out.println();
 		
 		for (int i = 0; i < restaurant.length; i++){
-			System.out.println(restaurant[i].getName() + "");
+			System.out.println(restaurant[i].getFoodType() + "");
 		}
 
 		// Prints out the food choices given by this restaurant.
