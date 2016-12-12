@@ -20,7 +20,7 @@ public class Burger extends Food {
 		System.out.println("This BURGER is delicious!");
 	}
 	
-	public String getName(){
+	public String getFoodType(){
 		return name;
 	}
 	// To be used in Driver_Food_Arrays
