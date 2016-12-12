@@ -3,7 +3,7 @@ This is my example program demonstrating Polymorphism in Java.
 
 
 
-The listings in the textbook were fine, but I feel like using a more basic concept of Food, rather than complex StaffMembers, can better summarize the capabilities and limitations of JUST polymorphism. **I still encourage that you read through the textbook listings, because they are great examples of how polymorphism may be applied to the concepts of abstract classes and how polymorphism interacts with variables and methods.**
+The listings in the textbook were fine, but I feel like using a more basic concept of Food, rather than complex StaffMembers, can better summarize the capabilities and limitations of JUST polymorphism. **I highly recommend that you still read through the textbook listings, because they are great examples of how polymorphism may be applied to the concepts of abstract classes and how polymorphism is used in interactions with variables and methods.**
 
 
 To add this to your Eclipse, please make a new Java Project, and create 5 classes with the exact same names as the files in this repository.
