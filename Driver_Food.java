@@ -3,7 +3,7 @@ public class Driver_Food {
 
 	public static void main(String[] args){
 		
-		// Demonstrating Polymorphism (and somewhat a review of superclases)
+		/// Demonstrating Polymorphism (and somewhat a review of superclases)
 		// Using types of Food as an example.
 		
 		Food genericEdible = new Food();
