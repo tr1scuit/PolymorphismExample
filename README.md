@@ -14,4 +14,4 @@ Then, just go into each file in this repository, copy the code inside, and paste
 
 The Driver_Food class is supposed to have errors, read through it to find out why!
 
-If you find any other real errors and mistakes, feel free to comment on Facebook and I'll urevise the code and commentary.
+If you find any other real errors and mistakes, feel free to comment on Facebook and I'll revise the code and commentary.
