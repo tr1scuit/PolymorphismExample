@@ -1,5 +1,5 @@
 # PolymorphismExample
-This is my example program demonstrating Polymorphism in Java
+This is my example program demonstrating Polymorphism in Java.
 
 
 
