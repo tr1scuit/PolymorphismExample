@@ -27,13 +27,16 @@ public class Driver_Food {
 		// You can eat food, and you can eat a burger.
 		//--------------------------------------------------------------
 		
-		Food cheeseburger;
+		Food cheeseburger = new Burger();
 		Burger delish = new Burger();
 		delish = cheeseburger;
 		// See how this one doesn't work? This is because we are trying
-		// to set a Burger object as an alias to a Food object. Burgers
-		// are more specific than Foods, so it makes sense that we
-		// cannot make a specific object refer to a generic type.
+		// to set a Burger object as an alias to an object that was originally
+		// referred to as a Food. EVEN THOUGH IT IS A BURGER OBJECT, it has a
+		// Food type. 
+		
+		// Burgers are more specific than Foods, so it makes sense that we
+		// cannot make a specific object refer to a generic type. 
 		
 		// That is, unless we cast it. If you put (Burger) right before
 		// "cheeseburger," you can tell the program that we are SPECIFYING
@@ -54,7 +57,7 @@ public class Driver_Food {
 		
 		Burger deliciousFood;
 		Pizza goodPizza = new Pizza();
-		goodPizza = (Pizza)deliciousFood;
+//		goodPizza = (Pizza)deliciousFood;
 		
 		// See how there's an error? That is because this operation is
 		// attempting to cast a Burger object as a Pizza object. Even
