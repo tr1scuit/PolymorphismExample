@@ -57,7 +57,7 @@ public class Driver_Food {
 		
 		Burger deliciousFood;
 		Pizza goodPizza = new Pizza();
-//		goodPizza = (Pizza)deliciousFood;
+		goodPizza = (Pizza)deliciousFood;
 		
 		// See how there's an error? That is because this operation is
 		// attempting to cast a Burger object as a Pizza object. Even
